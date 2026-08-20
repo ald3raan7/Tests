@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.1">
+  <Ad id="ias-wrapper">
+    <Wrapper>
+      <AdSystem>IAS Verification Wrapper</AdSystem>
+      <VASTAdTagURI><![CDATA[https://ad.doubleclick.net/ddm/pfadx/N46002.2681838INTEGRALADSCIENCE3/B35045765.439361613;sz=0x0;dsp_creativeid_0_=%ecid!;dsp_xappb_0_=[ctv_appid];dsp_xsId_0_=[PLEASE_IMPLEMENT_UNIQUE_ADSERVER_IMPRESSION_ID_HERE];ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dc_tdv=1;dcmt=text/xml;dc_sdk_apis=[APIFRAMEWORKS];dc_omid_p=[OMIDPARTNER];dc_vast=3;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};dc_mpos=[BREAKPOSITION];ltd=]]></VASTAdTagURI>
+      <Extensions>
+        <Extension type="AdVerifications">
+          <AdVerifications>
+            <Verification vendor="integralads.com-omid">
+              <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://pixel.adsafeprotected.com/jload?anId=931634&campId=123&pubId=${ADSXT_PUBLISHER_ID}&chanId=${EXCHANGE_ID}&placementId=${CAMPAIGN_ID}&bundleId=${BUNDLE_ID}&dealId=${INVENTORY_SOURCE_EXTERNAL_ID}]]></JavaScriptResource>
+              <VerificationParameters/>
+            </Verification>
+          </AdVerifications>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>

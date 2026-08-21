@@ -8,7 +8,7 @@
         <Extension type="AdVerifications">
           <AdVerifications>
             <Verification vendor="integralads.com-omid">
-              <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://pixel.adsafeprotected.com/jload?anId=931634&campId={drew_and_emma}&pubId=${ADSXT_PUBLISHER_ID}&chanId=${EXCHANGE_ID}&placementId=${CAMPAIGN_ID}&bundleId=%%TTD_APPBUNDLE%%&dealId=${INVENTORY_SOURCE_EXTERNAL_ID}]]></JavaScriptResource>
+              <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://pixel.adsafeprotected.com/jload?anId=931634&campId={drew_and_emma}&pubId=${ADSXT_PUBLISHER_ID}&chanId=%%TTD_SUPPLYVENDOR%%&placementId=${CAMPAIGN_ID}&bundleId=%%TTD_APPBUNDLE%%&dealId=${INVENTORY_SOURCE_EXTERNAL_ID}]]></JavaScriptResource>
               <VerificationParameters/>
             </Verification>
           </AdVerifications>

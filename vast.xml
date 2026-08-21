@@ -6,7 +6,7 @@
       <VASTAdTagURI><![CDATA[https://ad.doubleclick.net/ddm/pfadx/N46002.2681838INTEGRALADSCIENCE3/B34957469.438264474;sz=0x0;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;dc_tdv=1;dcmt=text/xml;dc_sdk_apis=[APIFRAMEWORKS];dc_omid_p=[OMIDPARTNER];dc_vast=3;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};dc_mpos=[BREAKPOSITION];ltd=]]></VASTAdTagURI>
       <AdVerifications>
         <Verification vendor="integralads.com-omid">
-              <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://pixel.adsafeprotected.com/jload?anId=931634&campId=dt_test&pubId=${ADSXT_PUBLISHER_ID}&chanId=${EXCHANGE_ID}&placementId=${CAMPAIGN_ID}&bundleId=${BUNDLE_ID}&dealId=${INVENTORY_SOURCE_EXTERNAL_ID}]]></JavaScriptResource>
+              <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://pixel.adsafeprotected.com/jload?anId=931634&campId={drew_and_emma}&pubId=${ADSXT_PUBLISHER_ID}&chanId=${EXCHANGE_ID}&placementId=${CAMPAIGN_ID}&bundleId=${BUNDLE_ID}&dealId=${INVENTORY_SOURCE_EXTERNAL_ID}]]></JavaScriptResource>
           <VerificationParameters/>
         </Verification>
       </AdVerifications>
